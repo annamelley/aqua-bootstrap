@@ -1,0 +1,177 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+/* NAVBAR */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Styling */
+
+		/* NAVBAR */
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #adb5bd; 
+}
+
+.navbar-brand img.navbar-logo {
+    max-width: 80px;
+    max-height: 80px;
+    transition: transform 0.3s;
+}
+
+.navbar-brand img.navbar-logo:hover {
+    transform: scale(1.05); 
+}
+
+/* Responsive Button */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/*  END NAVBAR */
+
+/* font. */
+.montserrat-headings {
+    font-family: "Montserrat", serif; 
+    font-weight: 400; 
+    font-style: normal; 
+}
+
+
+
+/* Main Content Styling */
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #343a40;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #6c757d;
+}
+
+body {
+    padding-top: 50px; 
+    padding-bottom: 0px; 
+}
+ 
+
+
+
+/* HOME PAGE */
+
+
+.my-custom-row {
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+}
+
+
+/* WAXING AND LASH&BROW */
+
+
+	/* Services and prices styling */
+        .services-prices-section {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+	/* accordion styles */
+        .accordion {
+            margin-top: 40px;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #5E99AB; 
+            color: #fff; 
+        }
+        .accordion-button.collapsed {
+            background-color: #E5E5E5; 
+            color: #333; 
+        }
+        .accordion-item {
+            width: 100%; 
+            max-width: 1000px; 
+            margin: 0 auto; 
+        }
+        .accordion-button {
+            min-height: 50px; 
+            font-size: 1.2rem; 
+        }
+        .accordion-body {
+            padding: 20px;
+            height: auto; 
+        }
+
+/* END */
+
+/* BUTTON */ 
+.btn-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: #333;
+  --bs-btn-bg: #E5E5E5;
+  --bs-btn-border-color: #E5E5E5;
+  --bs-btn-hover-color: #FFFFFF;
+  --bs-btn-hover-bg: #5E99AB;
+  --bs-btn-hover-border-color: #5E99AB;
+  --bs-btn-active-bg: #5E99AB;
+}
+
+
+
+
+
+/* Footer (optional if you want a footer) */
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    font-size: 0.9rem; 
+    position: relative;
+    width: 100%;
+}
+
+.footer a {
+    color: #5E99AB; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Small Screens */
+@media (max-width: 576px) {
+    body {
+        padding-top: 120px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .navbar-brand img.navbar-logo {
+        max-width: 60px;
+        max-height: 60px;
+    }
+}
